@@ -2,14 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 import Store from "./Store";
-import Toggle from "./Toggle";
+
+import { view as UserApps } from "./pages/home";
 
 import "./styles.css";
 
 export function App() {
   return (
     <Provider store={Store}>
-      <Toggle />
+      My Computer
+      <UserApps />
     </Provider>
   );
 }
