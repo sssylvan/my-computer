@@ -6,6 +6,7 @@ import Store from "./Store";
 import { view as UserApps } from "./pages/home";
 
 import "./styles.css";
+import "antd/dist/antd.css";
 
 export function App() {
   return (

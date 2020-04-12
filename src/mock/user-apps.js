@@ -1,9 +1,10 @@
 export default {
   data: [
     {
+      key: 1,
       name: "vscode",
       id: "vscode",
-      keys: [{ keyCodes: "dfsdf", name: "", memo: "" }],
+      keycode: 13,
     },
   ],
 };
