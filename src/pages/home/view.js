@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchUserApps } from "./services/actions";
 import * as Status from "./services/status.js";
+import * as actions from "./services/actions";
 
 export const EditableContext = React.createContext();
 
@@ -104,11 +105,13 @@ const UserApps = () => {
   const { status, data } = useSelector((state) => state.userApps);
   const dispatch = useDispatch();
   const handleSave = (row) => {
-    const newData = [...this.state.dataSource];
+    const newData = [...data];
     const index = newData.findIndex((item) => row.key === item.key);
     const item = newData[index];
     newData.splice(index, 1, { ...item, ...row });
     console.log(newData);
+    // fetchUserApps(newData);
+    dispatch(actions.fetchUserApps(newData));
   };
   const components = {
     body: {

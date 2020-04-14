@@ -9,6 +9,7 @@ import "./styles.css";
 import "antd/dist/antd.css";
 
 export function App() {
+  // fetch("https://zeit-serverless-node.now.sh/api/hello");
   return (
     <Provider store={Store}>
       My Computer

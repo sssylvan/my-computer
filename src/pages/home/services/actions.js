@@ -18,7 +18,7 @@ export const fetchUserAppsFailure = (error) => ({
   error,
 });
 
-export const fetchUserApps = (cityCode) => {
+export const fetchUserApps = (newData) => {
   return (dispatch) => {
     // const apiUrl = `/data/cityinfo/${cityCode}.html`;
     const seqId = ++nextSeqId;
@@ -28,9 +28,21 @@ export const fetchUserApps = (cityCode) => {
         return dispatch(action);
       }
     };
+    console.log(newData);
+    // dispatchIfValid(fetchUserAppsStarted());
+    if (!newData) {
+      dispatchIfValid(fetchUserAppsSuccess(userAppList));
+    } else {
+      dispatchIfValid(fetchUserAppsSuccess({ data: newData }));
+      let myHeaders = new Headers();
+      myHeaders.append("Access-Control-Allow-Origin", "*");
+      fetch("/api/hello", {
+        method: "post",
+        body: JSON.stringify(newData),
+        headers: myHeaders,
+      });
+    }
 
-    dispatchIfValid(fetchUserAppsStarted());
-    dispatchIfValid(fetchUserAppsSuccess(userAppList));
     // fetch(apiUrl)
     //   .then((response) => {
     //     if (response.status !== 200) {
