@@ -2,206 +2,6 @@
 # yarn lockfile v1
 
 
-"@ag-grid-community/all-modules@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-community/all-modules/download/@ag-grid-community/all-modules-23.0.2.tgz#3b224149c83a5495f8cf21f7f383d3e1b7098e86"
-  integrity sha1-OyJBScg6VJX4zyH384PT4bcJjoY=
-  dependencies:
-    "@ag-grid-community/client-side-row-model" "~23.0.0"
-    "@ag-grid-community/core" "~23.0.0"
-    "@ag-grid-community/csv-export" "~23.0.0"
-    "@ag-grid-community/infinite-row-model" "~23.0.0"
-
-"@ag-grid-community/client-side-row-model@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-community/client-side-row-model/download/@ag-grid-community/client-side-row-model-23.0.2.tgz#52eee1e4d50fa9cd7a0c3ab8787ef34ad27f13f2"
-  integrity sha1-Uu7h5NUPqc16DDq4eH7zStJ/E/I=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-
-"@ag-grid-community/core@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-community/core/download/@ag-grid-community/core-23.0.2.tgz#b751a344222e75ea37f2545af21efd9b6579b53d"
-  integrity sha1-t1GjRCIudeo38lRa8h79m2V5tT0=
-
-"@ag-grid-community/csv-export@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-community/csv-export/download/@ag-grid-community/csv-export-23.0.2.tgz#6d83be4406adae83d00a349b323eaea99b4d5ae5"
-  integrity sha1-bYO+RAatroPQCjSbMj6uqZtNWuU=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-
-"@ag-grid-community/infinite-row-model@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-community/infinite-row-model/download/@ag-grid-community/infinite-row-model-23.0.2.tgz#a7e6fd743122f145c3a27af43945a46a810eecec"
-  integrity sha1-p+b9dDEi8UXDonr0OUWkaoEO7Ow=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-
-"@ag-grid-community/react@^23.0.3":
-  version "23.0.3"
-  resolved "https://registry.npm.taobao.org/@ag-grid-community/react/download/@ag-grid-community/react-23.0.3.tgz#db04d3236f8fe157d1f5aa8ea0ce1c2819ddb521"
-  integrity sha1-2wTTI2+P4VfR9aqOoM4cKBndtSE=
-  dependencies:
-    prop-types "^15.6.2"
-
-"@ag-grid-enterprise/all-modules@^23.0.2":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/all-modules/download/@ag-grid-enterprise/all-modules-23.0.2.tgz#c59fadfecd891156f2c952abbe0f01f6ea6f5ad2"
-  integrity sha1-xZ+t/s2JEVbyyVKrvg8B9upvWtI=
-  dependencies:
-    "@ag-grid-community/all-modules" "~23.0.0"
-    "@ag-grid-enterprise/charts" "~23.0.0"
-    "@ag-grid-enterprise/clipboard" "~23.0.0"
-    "@ag-grid-enterprise/column-tool-panel" "~23.0.0"
-    "@ag-grid-enterprise/core" "~23.0.0"
-    "@ag-grid-enterprise/excel-export" "~23.0.0"
-    "@ag-grid-enterprise/filter-tool-panel" "~23.0.0"
-    "@ag-grid-enterprise/master-detail" "~23.0.0"
-    "@ag-grid-enterprise/menu" "~23.0.0"
-    "@ag-grid-enterprise/range-selection" "~23.0.0"
-    "@ag-grid-enterprise/rich-select" "~23.0.0"
-    "@ag-grid-enterprise/row-grouping" "~23.0.0"
-    "@ag-grid-enterprise/server-side-row-model" "~23.0.0"
-    "@ag-grid-enterprise/set-filter" "~23.0.0"
-    "@ag-grid-enterprise/side-bar" "~23.0.0"
-    "@ag-grid-enterprise/status-bar" "~23.0.0"
-    "@ag-grid-enterprise/viewport-row-model" "~23.0.0"
-
-"@ag-grid-enterprise/charts@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/charts/download/@ag-grid-enterprise/charts-23.0.2.tgz#94fff2ea63799def7d0f2338cbfee2b5111ae94a"
-  integrity sha1-lP/y6mN5ne99DyM4y/7itREa6Uo=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-    "@ag-grid-enterprise/core" "~23.0.0"
-    "@ag-grid-enterprise/range-selection" "~23.0.0"
-    ag-charts-community "~1.0.0"
-
-"@ag-grid-enterprise/clipboard@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/clipboard/download/@ag-grid-enterprise/clipboard-23.0.2.tgz#75e9813181783cd5fe83c2b594e3d07102a7e480"
-  integrity sha1-demBMYF4PNX+g8K1lOPQcQKn5IA=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-    "@ag-grid-community/csv-export" "~23.0.0"
-    "@ag-grid-enterprise/core" "~23.0.0"
-
-"@ag-grid-enterprise/column-tool-panel@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/column-tool-panel/download/@ag-grid-enterprise/column-tool-panel-23.0.2.tgz#b445a558cbc4ef90502544ca2363b63a9dc60c36"
-  integrity sha1-tEWlWMvE75BQJUTKI2O2Op3GDDY=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-    "@ag-grid-enterprise/core" "~23.0.0"
-    "@ag-grid-enterprise/row-grouping" "~23.0.0"
-    "@ag-grid-enterprise/side-bar" "~23.0.0"
-
-"@ag-grid-enterprise/core@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/core/download/@ag-grid-enterprise/core-23.0.2.tgz#12be6cc4582a0125ea5cead1bbc6c93c44a7567c"
-  integrity sha1-Er5sxFgqASXqXOrRu8bJPESnVnw=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-
-"@ag-grid-enterprise/excel-export@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/excel-export/download/@ag-grid-enterprise/excel-export-23.0.2.tgz#985d4abd82caf8566b08670c4ef49883f8b3778a"
-  integrity sha1-mF1KvYLK+FZrCGcMTvSYg/izd4o=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-    "@ag-grid-community/csv-export" "~23.0.0"
-    "@ag-grid-enterprise/core" "~23.0.0"
-
-"@ag-grid-enterprise/filter-tool-panel@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/filter-tool-panel/download/@ag-grid-enterprise/filter-tool-panel-23.0.2.tgz#0ed501030a7ecdc63d378cb9620c258f809fb564"
-  integrity sha1-DtUBAwp+zcY9N4y5Ygwlj4CftWQ=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-    "@ag-grid-enterprise/core" "~23.0.0"
-    "@ag-grid-enterprise/side-bar" "~23.0.0"
-
-"@ag-grid-enterprise/master-detail@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/master-detail/download/@ag-grid-enterprise/master-detail-23.0.2.tgz#68394d45f3a8bb72a2df09545859fdc25353f030"
-  integrity sha1-aDlNRfOou3Ki3wlUWFn9wlNT8DA=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-    "@ag-grid-enterprise/core" "~23.0.0"
-
-"@ag-grid-enterprise/menu@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/menu/download/@ag-grid-enterprise/menu-23.0.2.tgz#55988597884a464bff6e94fe40e4cc0ba79c7aa4"
-  integrity sha1-VZiFl4hKRkv/bpT+QOTMC6eceqQ=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-    "@ag-grid-enterprise/core" "~23.0.0"
-
-"@ag-grid-enterprise/range-selection@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/range-selection/download/@ag-grid-enterprise/range-selection-23.0.2.tgz#22dc1a459d8e841695268fe81b7a8042ca3630d6"
-  integrity sha1-ItwaRZ2OhBaVJo/oG3qAQso2MNY=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-    "@ag-grid-enterprise/core" "~23.0.0"
-
-"@ag-grid-enterprise/rich-select@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/rich-select/download/@ag-grid-enterprise/rich-select-23.0.2.tgz#fe6cbaaf873d37c366306f73283c8cf95f64e47f"
-  integrity sha1-/my6r4c9N8NmMG9zKDyM+V9k5H8=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-    "@ag-grid-enterprise/core" "~23.0.0"
-
-"@ag-grid-enterprise/row-grouping@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/row-grouping/download/@ag-grid-enterprise/row-grouping-23.0.2.tgz#1caa2c7a114ff0e8bbaf5d37f6c67749c03ee2cc"
-  integrity sha1-HKosehFP8Oi7r1039sZ3ScA+4sw=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-    "@ag-grid-enterprise/core" "~23.0.0"
-
-"@ag-grid-enterprise/server-side-row-model@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/server-side-row-model/download/@ag-grid-enterprise/server-side-row-model-23.0.2.tgz#2b23e6f17d1896eaf19e58e8db6f69ad7a8e11ba"
-  integrity sha1-KyPm8X0Ylurxnljo229prXqOEbo=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-    "@ag-grid-enterprise/core" "~23.0.0"
-
-"@ag-grid-enterprise/set-filter@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/set-filter/download/@ag-grid-enterprise/set-filter-23.0.2.tgz#4234d9faacb2a5b076952a8cbbda63e6321eacf8"
-  integrity sha1-QjTZ+qyypbB2lSqMu9pj5jIerPg=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-    "@ag-grid-enterprise/core" "~23.0.0"
-
-"@ag-grid-enterprise/side-bar@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/side-bar/download/@ag-grid-enterprise/side-bar-23.0.2.tgz#1d62e77ac9e7d359dd68adabdf44420507e4994a"
-  integrity sha1-HWLnesnn01ndaK2r30RCBQfkmUo=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-    "@ag-grid-enterprise/core" "~23.0.0"
-
-"@ag-grid-enterprise/status-bar@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/status-bar/download/@ag-grid-enterprise/status-bar-23.0.2.tgz#140e325f53a1dd6b3c0ce2ccd2243f5755aa2090"
-  integrity sha1-FA4yX1Oh3Ws8DOLM0iQ/V1WqIJA=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-    "@ag-grid-enterprise/core" "~23.0.0"
-
-"@ag-grid-enterprise/viewport-row-model@~23.0.0":
-  version "23.0.2"
-  resolved "https://registry.npm.taobao.org/@ag-grid-enterprise/viewport-row-model/download/@ag-grid-enterprise/viewport-row-model-23.0.2.tgz#99c21436d5f9b532c1df20b301f6107ff023e1d4"
-  integrity sha1-mcIUNtX5tTLB3yCzAfYQf/Aj4dQ=
-  dependencies:
-    "@ag-grid-community/core" "~23.0.0"
-    "@ag-grid-enterprise/core" "~23.0.0"
-
 "@ant-design/colors@^3.1.0":
   version "3.2.2"
   resolved "https://registry.npm.taobao.org/@ant-design/colors/download/@ant-design/colors-3.2.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40ant-design%2Fcolors%2Fdownload%2F%40ant-design%2Fcolors-3.2.2.tgz#5ad43d619e911f3488ebac303d606e66a8423903"
@@ -1925,11 +1725,6 @@ address@1.1.2, address@^1.0.1:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/address/download/address-1.1.2.tgz#bf1116c9c758c51b7a933d296b72c221ed9428b6"
   integrity sha1-vxEWycdYxRt6kz0pa3LCIe2UKLY=
-
-ag-charts-community@~1.0.0:
-  version "1.0.1"
-  resolved "https://registry.npm.taobao.org/ag-charts-community/download/ag-charts-community-1.0.1.tgz#1b5d82fa1f0570be72acfc19975bc08fcd00d14f"
-  integrity sha1-G12C+h8FcL5yrPwZl1vAj80A0U8=
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -4910,6 +4705,11 @@ hosted-git-info@^2.1.4:
   version "2.8.8"
   resolved "https://registry.npm.taobao.org/hosted-git-info/download/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
   integrity sha1-dTm9S8Hg4KiVgVouAmJCCxKFhIg=
+
+hotkeys-js@^3.7.6:
+  version "3.7.6"
+  resolved "https://registry.npm.taobao.org/hotkeys-js/download/hotkeys-js-3.7.6.tgz#b90ae3453a7be2f2b2bed6ee55cb96443944c77b"
+  integrity sha1-uQrjRTp74vKyvtbuVcuWRDlEx3s=
 
 hpack.js@^2.1.6:
   version "2.1.6"

@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchUserApps } from "./services/actions";
 import * as Status from "./services/status.js";
 import * as actions from "./services/actions";
+import hotkeys from "hotkeys-js";
 
 export const EditableContext = React.createContext();
 
@@ -32,7 +33,16 @@ export const EditableCell = ({
   const form = useContext(EditableContext);
   useEffect(() => {
     if (editing) {
+      hotkeys("*", function () {
+        console.log(hotkeys.getPressedKeyCodes()); //=> [17, 65] or [70]
+        const code = hotkeys.getPressedKeyCodes().join("+");
+        form.setFieldsValue({
+          [dataIndex]: code,
+        });
+      });
       inputRef.current.focus();
+    } else {
+      hotkeys.unbind("*");
     }
   }, [editing]);
 
@@ -69,7 +79,7 @@ export const EditableCell = ({
           },
         ]}
       >
-        <Input ref={inputRef} onPressEnter={save} onBlur={save} />
+        <Input ref={inputRef} onPressEnter={save} readOnly onBlur={save} />
       </Form.Item>
     ) : (
       <div
@@ -92,12 +102,12 @@ const rcolumns = [
     title: "Name",
     dataIndex: "name",
     key: "name",
-    editable: true,
   },
   {
     title: "KeyCode",
     dataIndex: "keycode",
     key: "keycode",
+    editable: true,
   },
 ];
 
